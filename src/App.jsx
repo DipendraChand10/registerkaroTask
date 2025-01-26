@@ -8,6 +8,9 @@ import BlogsExplore from "./Components/BlogsExplore/BlogsExplore";
 import Footer from "./Components/Footer/Footer";
 import Features from "./Components/Features/Features";
 
+import Clients from "./Components/Client/Clients";
+import ClientFooter from "./Components/Client/ClientFooter";
+import ContactUs from "./Components/contact/ContactUs";
 const App = () => {
   return (
     <div>
@@ -18,6 +21,9 @@ const App = () => {
       <FAQSection />
       <BlogsExplore />
       <Features />
+      <Clients />
+      <ClientFooter />
+      <ContactUs />
       <Footer />
     </div>
   );

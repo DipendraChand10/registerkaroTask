@@ -4,7 +4,7 @@ import { IoIosArrowDown } from "react-icons/io";
 
 const Navbar = () => {
   return (
-    <nav className="h-[72px] w-full max-w-[1440px] mx-auto">
+    <nav className="h-[72px] w-full mx-auto">
       <div className="flex justify-between items-center h-full px-4">
         <div className="h-[36.8px] w-[200px] ml-20">
           <img src="./images/logo.webp" alt="logo" className="w-full h-full" />

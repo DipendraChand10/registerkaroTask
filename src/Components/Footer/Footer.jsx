@@ -15,9 +15,9 @@ const Footer = () => {
   };
 
   return (
-    <footer className="w-full max-w-screen-xl h-auto bg-[#011B5B] mx-auto flex justify-center items-center py-4">
+    <footer className="w-full h-auto bg-[#011B5B] mx-auto flex justify-center items-center py-4">
       {/* Red Box */}
-      <div className="w-full max-w-[1216px] h-auto px-[64px] py-8 flex flex-col justify-between overflow-hidden">
+      <div className="w-full h-auto px-[64px] py-8 flex flex-col justify-between overflow-hidden">
         {/* First Section with 5 parts */}
         <div className="w-full h-auto flex flex-wrap justify-between text-[#AAB5CD] gap-6">
           <div className="h-[112px] w-full sm:w-[247px] overflow-hidden">

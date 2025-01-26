@@ -7,7 +7,7 @@ import { FaTwitter } from "react-icons/fa";
 
 const Header = () => {
   return (
-    <header className="bg-[#1C4670] text-white h-[44px] w-full max-w-[1440px] mx-auto flex items-center px-4 relative">
+    <header className="bg-[#1C4670] text-white h-[44px] w-full mx-auto flex items-center px-4 relative">
       <div className="w-[488px] h-[28px] absolute right-0 mr-12 flex justify-between items-center px-2">
         <div className="flex items-center space-x-1">
           <FaEnvelope />

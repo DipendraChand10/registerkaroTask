@@ -17,6 +17,9 @@ import Introduction from "./Components/introduction/Introduction";
 import AboutUs from "./Components/About/AboutUs";
 import Features from "./Components/Features/Features";
 
+import Clients from "./Components/Client/Clients";
+import ClientFooter from "./Components/Client/ClientFooter";
+import ContactUs from "./Components/contact/ContactUs";
 const App = () => {
   return (
     <div>
@@ -35,6 +38,9 @@ const App = () => {
       <Search />
       <Logo />
       <Features />
+      <Clients />
+      <ClientFooter />
+      <ContactUs />
       <Footer />
     </div>
   );

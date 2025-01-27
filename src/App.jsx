@@ -20,6 +20,11 @@ import Features from "./Components/Features/Features";
 import Clients from "./Components/Client/Clients";
 import ClientFooter from "./Components/Client/ClientFooter";
 import ContactUs from "./Components/contact/ContactUs";
+import Search from "./Components/search/Search";
+import Logo from "./Components/search/Logo";
+import Introduction from "./Components/introduction/Introduction";
+import AboutUs from "./Components/About/AboutUs";
+
 const App = () => {
   return (
     <div>
@@ -38,9 +43,12 @@ const App = () => {
       <Search />
       <Logo />
       <Features />
+      <Introduction />
       <Clients />
       <ClientFooter />
       <ContactUs />
+      <Search />
+      <Logo />
       <Footer />
     </div>
   );

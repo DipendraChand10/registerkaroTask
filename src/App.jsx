@@ -44,6 +44,7 @@ const App = () => {
       <TestimonialSlider />
       <FAQSection />
 
+      <BlogsExplore />
       <ContactUs />
       <Search />
       <Logo />

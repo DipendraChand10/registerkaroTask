@@ -76,12 +76,6 @@ const Features = () => {
           ))}
         </div>
       </div>
-
-      <div className="w-full mx-auto flex items-start justify-center pt-12">
-        <button className="w-[162px] h-[52px] rounded-[4px] bg-[#1C4670] text-white">
-          See All Services
-        </button>
-      </div>
     </div>
   );
 };

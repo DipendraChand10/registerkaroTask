@@ -6,7 +6,7 @@ const ContactUs = () => {
   return (
     <div className="w-full">
       {/* First Section */}
-      <div className="w-full h-auto md:h-[334px] bg-blue-500 flex flex-col md:flex-row overflow-hidden">
+      <div className="w-full h-auto md:h-[334px] bg-[#1C4670] flex flex-col md:flex-row overflow-hidden">
         {/* Left Side Text */}
         <div className="w-full md:w-1/2 flex flex-col items-center md:items-start justify-center p-8 mt-6 text-white">
           <h2 className="text-2xl font-bold text-center md:text-left mb-4">

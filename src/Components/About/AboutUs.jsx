@@ -1,5 +1,5 @@
 import React from "react";
-import { FaArrowCircleRight } from "react-icons/fa";
+import { FaRegArrowAltCircleRight } from "react-icons/fa";
 
 const AboutUs = () => {
   return (
@@ -25,7 +25,7 @@ const AboutUs = () => {
         </p>
         <div className="w-full mx-auto flex items-start justify-center mt-8">
           <button className="w-[162px] h-[52px] rounded-[4px] bg-[#1C4670] text-white">
-            Learn more
+            Learn more <FaRegArrowAltCircleRight className="inline" />
           </button>
         </div>
       </div>

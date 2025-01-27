@@ -20,7 +20,7 @@ const Search = () => {
       </h1>
 
       {/* Search Input and Button */}
-      <div className="w-[360px] h-[46px] flex items-center justify-center mt-8">
+      <div className=" h-[46px] flex items-center justify-center mt-8">
         <input
           type="text"
           placeholder="Enter Your Email"

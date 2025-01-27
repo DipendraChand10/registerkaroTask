@@ -8,7 +8,6 @@ import {
   VectorSvg4,
   VectorSvg5,
 } from "../../common/ServicesSvg";
-import { AccordionComponent } from "../../common/AccordionComponent";
 
 const Services = () => {
   const servicesData = [
@@ -64,7 +63,7 @@ const Services = () => {
         </h1>
       </div>
       {/* services card */}
-      <div className="flex flex-wrap justify-center">
+      <div className="flex flex-wrap justify-center gap-4">
         {servicesData.map((cardData) => (
           <CardWithLink
             title={cardData.title}

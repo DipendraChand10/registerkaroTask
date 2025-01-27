@@ -424,13 +424,3 @@ export const VectorSvg5 = () => {
     </svg>
   );
 };
-
-// export default VectorSvg;
-// export default VectorSvg1;
-
-// export default VectorSvg2;
-
-// export default VectorSvg3;
-
-// export default VectorSvg4;
-// export default VectorSvg5;

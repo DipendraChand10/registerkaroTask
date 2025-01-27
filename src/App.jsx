@@ -15,7 +15,6 @@ import Search from "./Components/search/Search";
 import Logo from "./Components/search/Logo";
 import Introduction from "./Components/introduction/Introduction";
 import AboutUs from "./Components/About/AboutUs";
-import Features from "./Components/Features/Features";
 
 import TestimonialSlider from "./Components/TestimonialSlider/TestimonialSlider";
 
@@ -27,24 +26,13 @@ const App = () => {
       <Hero />
       <Services />
       <AboutUs />
-      <FAQSection />
       <BlogsExplore />
       <Features />
       <Introduction />
       <Clients />
       <ClientFooter />
-      <ContactUs />
-      <Search />
-      <Logo />
-      <Features />
-      <Introduction />
-      <Clients />
-      <ClientFooter />
-      <BlogsExplore />
       <TestimonialSlider />
       <FAQSection />
-
-      <BlogsExplore />
       <ContactUs />
       <Search />
       <Logo />

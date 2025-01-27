@@ -5,8 +5,8 @@ const Introduction = () => {
   return (
     <div className="w-full h-auto md:h-[531px] bg-[#1C4670] flex items-center justify-center p-4 flex-col md:flex-row gap-8">
       {/* Left Side Section */}
-      <div className="w-[572px] h-[360px]  flex flex-col items-start justify-center gap-8">
-        <div className="ml-12 w-full">
+      <div className="  flex flex-col items-start justify-center gap-8 p-8">
+        <div className=" w-full">
           <h1 className="font-bold text-white mb-5">Our Video Introductions</h1>
           <p className="text-left text-[#AAB5CD] text-sm leading-[24px] tracking-[-0.01em] font-normal">
             Velit purus egestas tellus phasellus. Mattis eget sed faucibus magna
@@ -14,7 +14,7 @@ const Introduction = () => {
           </p>
         </div>
 
-        <div className="ml-12 w-full flex items-center gap-2">
+        <div className=" w-full flex items-center gap-2">
           {/* Left Side Image */}
           <div className="w-[56px] h-[56px] ">
             <img
@@ -36,7 +36,7 @@ const Introduction = () => {
           </div>
         </div>
 
-        <div className="ml-12 w-full flex items-center gap-2">
+        <div className=" w-full flex items-center gap-2">
           {/* Left Side Image */}
           <div className="w-[56px] h-[56px]">
             <img
@@ -60,7 +60,7 @@ const Introduction = () => {
       </div>
 
       {/* Right Side Image */}
-      <div className="w-[640px] h-[420px] flex items-center justify-center mt-4 md:mt-0">
+      <div className="w-auto h-auto max-w-[640px] max-h-[540px] flex items-center justify-center mt-4 md:mt-0 p-8">
         <img
           src="./images/video.png"
           alt="Video Introduction"

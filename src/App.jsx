@@ -46,6 +46,8 @@ const App = () => {
       <Introduction />
       <Clients />
       <ClientFooter />
+      <BlogsExplore />
+      <FAQSection />
       <ContactUs />
       <Search />
       <Logo />

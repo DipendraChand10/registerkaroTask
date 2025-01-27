@@ -8,7 +8,7 @@ const ContactUs = () => {
       {/* First Section */}
       <div className="w-full h-auto md:h-[334px] bg-blue-500 flex flex-col md:flex-row overflow-hidden">
         {/* Left Side Text */}
-        <div className="w-full md:w-1/2 flex flex-col items-center md:items-start justify-center p-4 text-white">
+        <div className="w-full md:w-1/2 flex flex-col items-center md:items-start justify-center p-8 mt-6 text-white">
           <h2 className="text-2xl font-bold text-center md:text-left mb-4">
             Manage Your Services by your <br />
             Mobile Phone
@@ -55,7 +55,7 @@ const ContactUs = () => {
       </div>
 
       {/* Second Section */}
-      <div className="w-full h-auto md:h-[334px] flex flex-col items-center p-4">
+      <div className="w-full h-auto md:h-[334px] flex flex-col items-center p-4 mt-8 mb-8">
         <p className="text-[#EB8D15] text-lg mt-0 mb-2">Why Register karo</p>
         <h2 className="text-2xl font-bold mb-6 text-center md:text-left">
           Some Numbers are important

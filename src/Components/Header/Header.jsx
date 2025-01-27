@@ -7,24 +7,33 @@ import { FaTwitter } from "react-icons/fa";
 
 const Header = () => {
   return (
-    <header className="bg-[#1C4670] text-white h-[44px] w-full mx-auto flex items-center px-4 relative">
-      <div className="w-[488px] h-[28px] absolute right-0 mr-12 flex justify-between items-center px-2">
-        <div className="flex items-center space-x-1">
+    <div className="bg-[#1C4670] p-4 h-[44px] flex justify-end items-center text-white">
+      <div className="h-full w-full max-w-[1440px] mx-auto flex flex-col sm:flex-row justify-end items-center px-4 gap-4 sm:gap-8">
+        {/* Email Section with Icon on the same line */}
+        <div className="text-sm flex items-center gap-1 sm:gap-2">
           <FaEnvelope />
-          <span>www.registerkaro.in</span>
+          <a href="mailto:someone@example.com" className="truncate">
+            www.registerkaro.in
+          </a>
         </div>
-        <div className="flex items-center space-x-1">
+
+        {/* Phone Number Section */}
+        <div className="text-sm flex items-center gap-1 sm:gap-2">
           <FaPhone />
-          <span>+918447746183</span>
+          <a href="tel:+918447746183" className="truncate">
+            +918447746183
+          </a>
         </div>
-        <div className="flex items-center gap-2">
+
+        {/* Icon Section (Social Media Icons) */}
+        <div className="text-xl flex gap-1 sm:gap-2 justify-end mt-2 sm:mt-0">
           <RxInstagramLogo />
           <IoLogoFacebook />
           <FaTwitter />
           <FaPinterest />
         </div>
       </div>
-    </header>
+    </div>
   );
 };
 

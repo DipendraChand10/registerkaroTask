@@ -2,64 +2,67 @@ import React from "react";
 
 const ClientFooter = () => {
   return (
-    <div className="w-full h-[154px] bg-[#FFA229] p-4 sm:h-[200px] md:h-[180px] lg:h-[154px] flex items-center">
-      <div className="container mx-auto">
-        {/* Centering the div */}
-        <div className="h-[52px] w-full max-w-[1303px] mx-auto flex justify-between items-center space-x-0">
-          <div className="w-[25%] h-full flex items-center justify-center">
-            <div className="h-[52px] w-[52px] bg-[#EB5757] rounded-full flex items-center justify-center">
-              <img
-                className="h-[24px] w-[24px]"
-                src="./images/group.png"
-                alt="Logo"
-              />
-            </div>
-            <span className="ml-2 font-bold whitespace-nowrap text-sm">
-              Fill up Application Form
-            </span>
+    <section className="w-full h-auto py-6 bg-[#FFA229] flex items-center justify-center">
+      <div className="flex flex-wrap items-center justify-center gap-4 w-full max-w-[1200px]">
+        {/* Step 1 */}
+        <div className="flex items-center gap-4 w-full sm:w-auto px-4">
+          <div className="w-[52px] h-[52px] bg-[#EB5757] rounded-full flex items-center justify-center">
+            <img
+              src="./images/group.png"
+              alt="Logo"
+              className="h-[24px] w-auto object-contain"
+            />
           </div>
+          <p className="font-bold text-sm text-center sm:text-left">
+            Fill up Application Form
+          </p>
+        </div>
 
-          <div className="w-[25%] h-full flex items-center justify-center">
-            <div className="h-[52px] w-[52px] bg-[#27AE60] rounded-full flex items-center justify-center">
-              <img
-                className="h-[24px] w-[24px]"
-                src="./images/em.png"
-                alt="Logo"
-              />
-            </div>
-            <span className="ml-2 font-bold whitespace-nowrap text-sm">
-              Make Online Payment
-            </span>
+        {/* Step 2 */}
+        <div className="flex items-center gap-4 w-full sm:w-auto px-4">
+          <div className="w-[52px] h-[52px] bg-[#27AE60] rounded-full flex items-center justify-center">
+            <img
+              src="./images/em.png"
+              alt="Logo"
+              className="h-[24px] w-auto object-contain"
+            />
           </div>
+          <p className="font-bold text-sm text-center sm:text-left">
+            Make Online Payment
+          </p>
+        </div>
 
-          <div className="w-[25%] h-full flex items-center justify-center">
-            <div className="h-[52px] w-[52px] bg-[#F2994A] rounded-full flex items-center justify-center">
-              <img
-                className="h-[24px] w-[24px]"
-                src="./images/av.png"
-                alt="Logo"
-              />
-            </div>
-            <span className="ml-2 font-bold whitespace-nowrap text-sm">
-              Executive will Process Application
-            </span>
+        {/* Step 3 */}
+        <div className="flex items-center gap-4 w-full sm:w-auto px-4">
+          <div>
+            <img
+              src="./images/av.png"
+              alt="Logo"
+              className="h-[24px] w-auto object-contain"
+            />
           </div>
+          <p className="font-bold text-sm text-center sm:text-left">
+            Executive will Process Application
+          </p>
+        </div>
 
-          <div className="w-[25%] h-full flex items-center justify-center">
-            <div className="h-[52px] w-[52px] bg-[#828282] rounded-full flex items-center justify-center">
+        {/* Step 4 */}
+        <div className="flex items-center gap-4 w-full sm:w-auto px-4">
+          <div className="w-[52px] h-[52px] bg-[#F2994A] rounded-full flex items-center justify-center">
+            <div className="w-[52px] h-[52px] bg-[#828282] rounded-full flex items-center justify-center">
               <img
-                className="h-[24px] w-[24px]"
                 src="./images/Vector.png"
                 alt="Logo"
+                className="h-[24px] w-auto object-contain"
               />
             </div>
-            <span className="ml-2 font-bold whitespace-nowrap text-sm">
-              Get Confirm Mail
-            </span>
           </div>
+          <p className="font-bold text-sm text-center sm:text-left">
+            Get Confirm Mail
+          </p>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

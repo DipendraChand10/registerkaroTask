@@ -15,6 +15,7 @@ import Search from "./Components/search/Search";
 import Logo from "./Components/search/Logo";
 import Introduction from "./Components/introduction/Introduction";
 import AboutUs from "./Components/About/AboutUs";
+import Features from "./Components/Features/Features";
 
 const App = () => {
   return (
@@ -33,6 +34,7 @@ const App = () => {
       <ContactUs />
       <Search />
       <Logo />
+      <Features />
       <Footer />
     </div>
   );

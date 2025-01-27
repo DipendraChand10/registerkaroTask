@@ -47,6 +47,7 @@ const App = () => {
       <ContactUs />
       <Search />
       <Logo />
+      <Features />
       <Footer />
     </div>
   );

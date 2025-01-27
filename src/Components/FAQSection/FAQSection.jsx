@@ -1,6 +1,7 @@
 import React from "react";
 import { AccordionComponent } from "../../common/AccordionComponent";
 import { faqs } from "../../common/constans";
+import { FaArrowRight } from "react-icons/fa";
 const FAQSection = () => {
   return (
     <div className="w-full h-auto p-4 ">
@@ -19,7 +20,7 @@ const FAQSection = () => {
       </div>
       <div className="w-full mx-auto flex items-start justify-center pt-12">
         <button className="w-[162px] h-[52px] rounded-[4px] bg-[#1C4670] text-white">
-          Show more
+          Show more <FaArrowRight className="inline" />
         </button>
       </div>
     </div>

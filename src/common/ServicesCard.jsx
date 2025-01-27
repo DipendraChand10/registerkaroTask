@@ -16,7 +16,7 @@ const CardWithLink = ({
 }) => {
   return (
     <Card
-      className="w-96 shadow-none"
+      className="w-[330px] sm:w-96 shadow-none"
       style={{
         backgroundColor: bgColor,
         borderColor: borderColor,

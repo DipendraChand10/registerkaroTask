@@ -1,40 +1,51 @@
 import React from "react";
-import { IoSearchOutline } from "react-icons/io5";
 import { IoIosArrowDown } from "react-icons/io";
+import { IoSearchOutline } from "react-icons/io5";
 
 const Navbar = () => {
   return (
-    <nav className="h-[72px] w-full mx-auto">
-      <div className="flex justify-between items-center h-full px-4">
-        <div className="h-[36.8px] w-[200px] ml-20">
-          <img src="./images/logo.webp" alt="logo" className="w-full h-full" />
-        </div>
-        <div className="flex items-center space-x-6 mr-12">
-          <a href="#" className="hidden sm:block">
-            Home
-          </a>
-          <a href="#" className="flex items-center space-x-1 hidden sm:block">
-            <span>Our Services</span>
-            <IoIosArrowDown className="inline" />
-          </a>
-          <a href="#" className="hidden sm:block">
-            Blog
-          </a>
-          <a href="#" className="hidden sm:block">
-            Contact Us
-          </a>
-          <a href="#" className="hidden sm:block">
-            About Us
-          </a>
-          <a href="#" className="flex items-center sm:hidden">
-            <IoSearchOutline size={18} />
-          </a>
-          <button className="bg-[#FFA229] text-white h-[46px] w-[157px] rounded-[4px]">
-            Talk As Expert
-          </button>
-        </div>
+    <div className="h-[71px] w-full flex items-center justify-between px-4 sm:px-8">
+      {/* Left Side: Logo */}
+      <div className="flex items-center">
+        <img
+          src="./images/logo.webp"
+          alt="Logo"
+          className="w-[150px] h-[30px] sm:w-[200px] sm:h-[37px]"
+        />
       </div>
-    </nav>
+
+      {/* Right Side: 6 Links and Button */}
+      <div className="hidden md:flex items-center gap-6">
+        <a href="#" className="text-lg text-black">
+          Home
+        </a>
+        <a href="#" className="text-lg text-black">
+          Our Services <IoIosArrowDown className="inline" />
+        </a>
+        <a href="#" className="text-lg text-black">
+          Blog
+        </a>
+        <a href="#" className="text-lg text-black">
+          Contact Us
+        </a>
+        <a href="#" className="text-lg text-black">
+          About Us
+        </a>
+        <a href="#" className="text-lg text-black">
+          <IoSearchOutline />
+        </a>
+        <button className="bg-[#FFA229] text-white px-4 py-2 rounded text-sm sm:text-base">
+          Talk As Expert
+        </button>
+      </div>
+
+      {/* Mobile View: Links and Button */}
+      <div className="md:hidden flex items-center gap-4">
+        <button className="bg-[#FFA229] text-white px-4 py-2 rounded text-sm sm:text-base">
+          Talk As Expert
+        </button>
+      </div>
+    </div>
   );
 };
 

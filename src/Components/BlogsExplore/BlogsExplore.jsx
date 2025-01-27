@@ -1,6 +1,7 @@
 import React from "react";
 import { BlogCard } from "../../common/BlogCard";
 import card1 from "../../assets/card1.png";
+import { FaArrowRight } from "react-icons/fa";
 const BlogsExplore = () => {
   const blogsData = [
     {
@@ -89,7 +90,7 @@ const BlogsExplore = () => {
       </div>
       <div className="w-full mx-auto flex items-start justify-center pt-12">
         <button className="w-[162px] h-[52px] rounded-[4px] bg-[#1C4670] text-white">
-          Show more blogs
+          Show more blogs <FaArrowRight className="inline" />
         </button>
       </div>
     </div>

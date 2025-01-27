@@ -1,5 +1,6 @@
 import React from "react";
 import { FaRegArrowAltCircleRight } from "react-icons/fa";
+import { FaArrowCircleRight } from "react-icons/fa";
 
 const AboutUs = () => {
   return (
